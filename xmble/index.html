@@ -4,8 +4,9 @@
 <head>
 	<title> XMBLE </title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet"/>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	
-
 </head>
 
 <body>
@@ -53,10 +54,10 @@
 		<div class ="carousel-inner">
 		
 			<div class="item active">
-				<img src="img/slide1.jpg"/>
+				<img src="img/slide1_1080p_small.png"/>
 				<div class="container">
 					<div class ="carousel-caption">
-						<h1>My Heading Text</h1>
+						<h1></h1>
 						<p>This tag will contain the txt we want to appear on our slide.</p>
 						<p><a class = "btn btn-large btn-primary">Sign Up</a></p>
 					</div>
@@ -114,25 +115,59 @@
 			
 		</div>
 		
+	</div>
+	
+	<!-- Font Awesome Icons -->
+	
+	<div class="container">
+		
 		<div class="row">
-			<div class="col-md-6">
-				<h1>First Heading</h1>
-				<p>
-					Some test will go here. Some  text will go here.Some  text will go here.
-					Some  text will go here.Some  text will go here.Some  text will go here.
-					Some  text will go here.Some  text will go here.Some  text will go here.
+
+				<div id="social_buttons" class="well">
+						<a href="#"><i class="fa fa-facebook-square fa-4x"></i></a>
+						<a href="#"><i class="fa fa-instagram fa-4x"></i></a>
+						<a href="#"><i class="fa fa-twitter-square fa-4x"></i></a>
+						<a href="#"><i class="fa fa-youtube-square fa-4x"></i></a>					
+				</div>
+
+		</div>
+	</div>
+
+	<!-- Modal/Footer -->
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<hr/>
+				<p>Copyright &copy; Xmble
+				<a data-toggle="modal" href="#myModal">Terms and Condition</a>
 				</p>
-			</div>
-			
-			<div class="col-md-6">
-				<h1>First Heading</h1>
-				<p>
-					Some test will go here.Some  text will go here.Some  text will go here.Some  text will go here.
-					Some  text will go here.Some  text will go here.Some  text will go here.Some  text will go here.
-				</p>
+				
+				<!-- Modal -->
+				<div id="myModal" class="modal fade" tabinex="-1" role="dialog" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2>Terms and Conditions</h2>
+							</div>
+							<div class="modal-body">
+								<p>The text will go here....</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+	
+	
+	
+	
+	
+	
 	
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/bootstrap.js"></script>
